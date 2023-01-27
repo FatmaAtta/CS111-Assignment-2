@@ -1,3 +1,7 @@
+#Cesar cipher, in the simplest form, is shifting each character to
+#the next one. So the message "abc" becomes "bcd" and the message "I love computers" become "J
+#mpwf dpnqvufst".
+
 n=input("Enter a phrase\n")
 phrase=[i for i in n]
 enc=[]
