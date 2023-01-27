@@ -1,3 +1,4 @@
+#Q30. Exercise 6: Write a Python program to calculate the power of two numbers. Don't use ** operator.
 def power(basenum,pownum):
     result = 1
     for i in range(pownum):
