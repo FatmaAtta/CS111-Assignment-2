@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Fatma"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-30 06:10:57 PM"/>
+        <attribute name="created" value="RmF0bWE7RkFUTUE7MjAyMi0xMS0zMDswNjowMzoxOCBQTTsyMTIz"/>
+        <attribute name="edited" value="RmF0bWE7RkFUTUE7MjAyMi0xMS0zMDswNjoxMDo1NyBQTTsyOzIyMzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sum, low, high, i" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="0"/>
+            <output expression="&quot;Enter low&quot;" newline="True"/>
+            <input variable="low"/>
+            <output expression="&quot;Enter high&quot;" newline="True"/>
+            <input variable="high"/>
+            <for variable="i" start="low" end="high" direction="inc" step="1">
+                <assign variable="sum" expression="sum+i"/>
+            </for>
+            <output expression="sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
