@@ -1,3 +1,6 @@
+#Q38. Exercise 14 Write a Python function that accepts a string and calculate the number of digits and
+#letters.
+
 string = input("Enter a string\n")
 letters = 0
 digits = 0
